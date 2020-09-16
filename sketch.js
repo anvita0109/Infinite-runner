@@ -81,6 +81,9 @@ function draw() {
 				changePosition(0,+3);
 			}
 		
+		textSize(20);
+		text("cross the yellow line to win ", 800, displayHeight - 100);
+		text("press the up, down, right or left button to move ", 600, displayHeight - 50);	
 	}
 	else{
 		textSize(100);
